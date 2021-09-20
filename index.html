@@ -1,0 +1,567 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending China</title>
+
+    <link rel="stylesheet" href="DIST/CSS/Bootstrap-v5/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="DIST/CSS/Bootstrap-v5/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="DIST/CSS/icon/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="DIST/LIBRARY/Swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="DIST/CSS/style.css">
+    <link rel="shortcut icon" href="SRC/logo.png" type="image/x-icon">
+</head>
+
+<body class="bg-white">
+    <header class="bg-primary d-flex justify-content-between align-items-center p-2 shadow">
+        <a href="">
+            <img src="SRC/logo.png" width="120px">
+        </a>
+
+        <button id="navbar-btn">
+            <i class="bi bi-list fs-1 text-white"></i>
+        </button>
+
+        <nav class="navbar navbar-expand-lg navbar-brand navbar-dark">
+            <div class="container-fluid">
+
+
+                <div class="" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="SRC/bendera-inggris.png" width="30px" height="20px">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><img src="SRC/bendera-inggris.png" width="30px"
+                                            height="20px"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="SRC/bendera-indonesia.png" width="30px"
+                                            height="20px"></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Programs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News & Blogs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <button type="button" class="btn btn-outline-light me-2">Get Started</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-brand">
+                    <div class="container p-2 p-md-4 p-lg-5 text-center text-md-start text-lg-start">
+                        <h1 class="text-white fw-bold text-shadow">We're Here to Help You'</h1>
+                        <h4 class="text-white text-shadow">
+                            We connect talented people with great company
+                            join our network today!</h4>
+
+                        <div class="mt-5 button-container">
+                            <button class="btn btn-primary rounded-pill fs-5">Search Job</button>
+                            <button class="btn btn-primary rounded-pill mt-2 mx-md-3 mx-lg-4 fs-5">Find Talent</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="w-100 bg-primary p-4">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-search text-white fs-3 me-1"></i>
+                <input type="search" name="job-search" class="search-job" placeholder="What are you looking for?">
+            </div>
+        </div>
+
+        <div class="w-100 bg-dark p-3 d-flex flex-wrap flex-md-nowrap flex-lg-nowrap align-items-center">
+            <div class="dropdown w-auto">
+                <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Bussiness
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="dropdown w-auto">
+                <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Bussiness
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center w-100">
+                <span class="text-white mx-2 mx-md-4 fs-6 fs-md-4">&yen; 0</span>
+                <input type="range" name="" id="" min="0" max="1000" value="200" style="width: 60%; margin: auto;">
+                <span class="text-white mx-2 mx-md-4 fs-6 fs-md-4 fs-md-1">&yen; 1K</span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center flex-column p-3 menu">
+            <div class="row d-flex justify-content-between" id="menu-filter">
+                <div class="swiper-container swiper-scroll">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="all">
+                                <button class="btn btn-outline-primary rounded-pill">
+                                    All
+                                </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-primary rounded-pill dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Bussiness
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row menu-card">
+                <div class="col col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img src="SRC/bg.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">Customer Service Manager</h4>
+                            <p class="card-text">
+                                Experience in leadership, people management, and EMI business models.
+                            </p>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center">
+                                    <img src="SRC/alibaba.png" width="30px" class="mx-2">
+                                    <h5 class="fw-bold">Alibaba Group</h5>
+                                </div>
+                                <div
+                                    class="d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap flex-lg-nowrap my-3">
+                                    <div>
+                                        <section class="d-flex align-items-center">
+                                            <i class="bi bi-geo-alt-fill fs-5 me-2"></i>
+                                            <h6>Work From Home</h6>
+                                        </section>
+                                        <section class="d-flex align-items-center">
+                                            <i class="bi bi-currency-dollar fs-5 me-2"></i>
+                                            <h6>500 -750</h6>
+                                        </section>
+                                    </div>
+                                    <div>
+                                        <section class="d-flex align-items-center">
+                                            <i class="bi bi-briefcase-fill fs-5 me-2"></i>
+                                            <h6>Full Time</h6>
+                                        </section>
+                                        <section class="d-flex align-items-center">
+                                            <i class="bi bi-tags-fill fs-5 me-2"></i>
+                                            <h6>Administration</h6>
+                                        </section>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn btn-primary mt-4 mt-md-0 mt-lg-0 rounded-pill">View
+                                            Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row sect">
+                <div class="col nopadding">
+                    <img src="SRC/img.jpg" alt="" style="width: 100%;">
+                </div>
+                <div class="col nopadding bg-dark text-white">
+                    <div class="p-5">
+                        <h2 class="fw-bold">FOR JOBSEEKERS</h2>
+                        <h5>We’re Here To Help You Find Work</h5>
+                        <p>
+                            Our Talent Acquisition agents can work together with you, and discuss opportunities with the
+                            best companies in the market. There are on-site and remote opportunities that you can choose
+                            from. Join our growing network of professionals and sign up today.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row sect">
+                <div class="col nopadding bg-dark text-white">
+                    <div class="p-5">
+                        <h2 class="fw-bold">FOR EMPLOYEER</h2>
+                        <h5>We’re Here To Help You Find Work</h5>
+                        <p>
+                            Our Talent Acquisition agents can work together with you, and discuss opportunities with the
+                            best companies in the market. There are on-site and remote opportunities that you can choose
+                            from. Join our growing network of professionals and sign up today.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col nopadding">
+                    <img src="SRC/img.jpg" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row bg-primary p-3">
+                <h4 class="text-white">Several Schools / Agencies that work with us!</h4>
+            </div>
+            <div class="row testi">
+                <div class="col col-lg-5 bg-white text-center">
+                    <img src="SRC/image 1.png" alt="" width="80%">
+
+                    <a href="#" class="btn btn-primary m-5">See all client</a>
+                </div>
+                <div class="col col-lg-7 bg-dark p-4">
+                    <div class="row mb-5">
+                        <h3 class="text-white">Testimonial</h3>
+
+                        <div class="d-flex">
+                            <h5 class="text-white active-border p-3">Jobseeker</h5>
+                            <h5 class="text-white mx-4 p-3">Employeer</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex align-items-start">
+                            <section class="d-flex flex-column text-center ms-3 me-5">
+                                <img src="SRC/people.png" alt="" class="img-sm">
+                                <span class="text-white my-2">Elon Musk</span>
+                            </section>
+
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+                                voluptas animi
+                                repudiandae provident? Repellat nostrum unde, fugiat est ullam deserunt, vel ut, at
+                                praesentium ipsam laudantium recusandae a eius nobis.</p>
+                        </div>
+
+                        <div class="d-flex align-items-end">
+                            <a href="#" class="btn btn-primary text-white mt-4 ">See all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="container-fluid bg-primary d-flex flex-column justify-content-center align-items-center p-5 text-center">
+            <h2 class="text-white">Discover the platform that can help you realize your true career potential.</h2>
+            <a href="#" class="btn btn-dark text-white mt-5">Create Account</a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex justify-content-between my-4">
+                    <h4 class="border-3 border-start border-dark p-2">Several Schools / Agencies that work with us!</h4>
+                    <a href="#" class="btn btn-primary">Show All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row m-auto">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-7 position-relative nopadding">
+                                <img src="SRC/bg.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;">
+                                <p class="position-absolute bottom-0 start-0 bg-dark-50 text-white p-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, laudantium enim.
+                                    Magnam.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-5 bg-primary nopadding">
+                                <p class="fs-6 text-white p-3 text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Similique molestias corrupti,
+                                    architecto culpa atque doloremque adipisci nulla incidunt possimus nemo maiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-7 position-relative nopadding">
+                                <img src="SRC/bg.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;">
+                                <p class="position-absolute bottom-0 start-0 bg-dark-50 text-white p-3">Lorem ipsum
+                                    dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Dolorem, laudantium enim.
+                                    Magnam.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-5 bg-primary nopadding">
+                                <p class="fs-6 text-white p-3 text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Similique molestias corrupti,
+                                    architecto culpa atque doloremque adipisci nulla incidunt possimus nemo maiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row m-auto">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-5 bg-primary nopadding">
+                                <p class="fs-6 text-white p-3 text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Similique molestias corrupti,
+                                    architecto culpa atque doloremque adipisci nulla incidunt possimus nemo maiores.</p>
+                            </div>
+                            <div class="col-12 col-md-7 position-relative nopadding">
+                                <img src="SRC/bg.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;">
+                                <p class="position-absolute bottom-0 start-0 bg-dark-50 text-white p-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, laudantium enim.
+                                    Magnam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12 col-md-5 bg-primary nopadding">
+                                <p class="fs-6 text-white p-3 text-center">Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Similique molestias corrupti,
+                                    architecto culpa atque doloremque adipisci nulla incidunt possimus nemo maiores.</p>
+                            </div>
+                            <div class="col-12 col-md-7 position-relative nopadding">
+                                <img src="SRC/bg.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;">
+                                <p class="position-absolute bottom-0 start-0 bg-dark-50 text-white p-3">Lorem ipsum
+                                    dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. Dolorem, laudantium enim.
+                                    Magnam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid mt-5">
+        <div class="row">
+            <div class="col">
+                <img src="SRC/Logo a.png" alt="" width="150px">
+            </div>
+            <div class="col">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="mb-4">
+                        <h4 class="pb-2 border-3 border-bottom border-dark">Connected with us</h4>
+
+                        <ul>
+                            <li class="my-2 list-unstyled"><a href="#" class="link-dark text-decoration-none">Join as
+                                    Agent</a></li>
+                            <li class="my-2 list-unstyled"><a href="#" class="link-dark text-decoration-none">Term &
+                                    Condition</a>
+                            </li>
+                            <li class="my-2 list-unstyled"><a href="#" class="link-dark text-decoration-none">Privacy
+                                    Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="pb-2 border-3 border-bottom border-dark">Contact Us</h4>
+
+                        <ul>
+                            <li class="my-2 list-unstyled">
+                                <a href="" class="mx-2 link-dark"><i class="bi bi-instagram"></i></a>
+                                <a href="" class="mx-2 link-dark"><i class="bi bi-facebook"></i></a>
+                                <a href="" class="mx-2 link-dark"><i class="bi bi-whatsapp"></i></a>
+                                <a href="" class="mx-2 link-dark"><i class="bi bi-twitter"></i></a>
+                                <a href="" class="mx-2 link-dark"><i class="bi bi-telegram"></i></a>
+                            </li>
+                            <li class="my-2 list-unstyled"><a href="#" class="link-dark text-decoration-none"><i
+                                        class="bi bi-telephone-fill mx-2"></i>+62812345678910</a></li>
+                            <li class="my-2 list-unstyled"><a href="#" class="link-dark text-decoration-none"><i
+                                        class="bi bi-mailbox mx-2"></i>admin@trendingchina.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="mb-4">
+                        <h4 class="pb-2 border-3 border-bottom border-dark">Payment Method</h4>
+
+                        <img src="SRC/payment.png" alt="" width="100%">
+                    </div>
+
+                    <div>
+                        <h4 class="pb-2 border-3 border-bottom border-dark">Contact Us</h4>
+
+                        <ul>
+                            <li><a href="#">Guide Pages</a></li>
+                            <li><a href="#">Term & Condition</a></li>
+                            <li><a href="#">Privacy Policy/a></li>
+                            <li><a href="#">News</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script src="DIST/CSS/Bootstrap-v5/dist/js/bootstrap.bundle.js"></script>
+    <script src="DIST/LIBRARY/Swiper/swiper-bundle.js"></script>
+    <script src="DIST/JS/main.js"></script>
+</body>
+
+</html>

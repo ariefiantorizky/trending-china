@@ -1,0 +1,243 @@
+:root {
+    --brand-color: #04439A;
+    --secondary-color: #004098;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9998;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 100%;
+    height: 450px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide.bg-brand {
+    background-image: url("../../SRC/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+}
+
+.swiper-scroll .swiper-slide {
+    background: none;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-primary-2 {
+    backdrop-filter: blur(5px);
+}
+
+.text-shadow {
+    text-shadow: 0 0 10px var(--secondary-color);
+    -webkit-text-shadow: 0 0 2px #000;
+}
+
+.search-job {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+}
+
+.search-job::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+
+ul#navbar-dropdown li.nav-item {
+    border: 1px solid var(--brand-color);
+    padding: 3px 15px;
+    font-size: 15px;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-card {
+    margin-top: 8%;
+}
+
+#menu-filter {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 12px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.active-border {
+    border-bottom: 5px solid var(--brand-color);
+}
+
+.img-sm {
+    width: 80px;
+}
+
+#navbar-btn {
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 995px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #navbar-btn {
+        display: block;
+    }
+
+    nav {
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav.navbar-brand {
+        position: fixed;
+        top: 50px;
+        left: -100%;
+        width: 50%;
+        min-height: 100vh;
+        background: var(--brand-color);
+        z-index: 999;
+    }
+
+    nav.navbar-brand.nav-left {
+        left: 0;
+    }
+
+    .navbar-nav>li,
+    .navbar-nav>li>li.dropdown-menu {
+        width: 100%;
+    }
+
+    #menu-filter {
+        top: 0;
+    }
+
+    .swiper-scroll .swiper-slide {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .sect {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .testi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer>.row {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .button-container button {
+        width: 100%;
+    }
+
+    .menu-card {
+        margin-top: 15%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav.navbar-brand {
+        width: 80%;
+    }
+}
